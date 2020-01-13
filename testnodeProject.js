@@ -1,4 +1,4 @@
 
-for (var i=0; i<5; i++){
-    console.log(`counter is: ${i}`)
+for (var i=0; i<10; i++){
+    console.log(`counter is:(new) ${i}`)
 }
