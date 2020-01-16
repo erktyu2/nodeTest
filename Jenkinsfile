@@ -8,6 +8,8 @@ pipeline {
                     echo "failure of node compiling"
                     ls -la
                     node testnodeProject.js
+                    cd react/testreactapp/
+                    npm run build
                 '''
             }
         }
