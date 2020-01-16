@@ -1,0 +1,23 @@
+{
+  "name": "testprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testnodeProject.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erktyu2/nodeTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erktyu2/nodeTest/issues"
+  },
+  "homepage": "https://github.com/erktyu2/nodeTest#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
