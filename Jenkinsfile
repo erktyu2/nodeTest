@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node testnodeProject.js'
+                sh 'node -v'
             }
         }
     }
