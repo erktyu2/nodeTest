@@ -5,8 +5,9 @@ pipeline {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "failure of node compiling"
                     ls -la
+                    node testnodeProject.js
                 '''
             }
         }
